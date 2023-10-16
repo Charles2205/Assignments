@@ -14,9 +14,13 @@ const Layout =()=>{
         <>
        <BrowserRouter>
             <NavBar/>
-                <Landing/>
-                <Description/>
-                <Articles/>
+                {/* <Routes>
+                <Route path="/" element={<Landing/>}/>
+                <Route path="/#about" element={<Description/>}/>
+                <Route path="/#about" element={<Articles/>}/>
+                </Routes> */}
+            <Description/>
+            <Articles/>
             <Footer/>
        </BrowserRouter>
         
